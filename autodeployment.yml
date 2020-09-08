@@ -1,0 +1,7 @@
+---
+# install docker & boinc
+- hosts: all
+- remove_user: root
+- roles: 
+  - role: geerlingguy.docker
+  - role: boinc
